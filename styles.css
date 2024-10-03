@@ -1,18 +1,35 @@
 body {
     background-image: url(https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_1280.jpg);
-    background-size:auto 100%;
     font-family: sans-serif;
     padding: 20px;
+    background-size: auto 100%;
 }
 
 p, h1, h2 {
     text-align: center;
 }
 
-.div {
-    width: 500px;
-    height: 500;
+.item {
     display: flex;
-    justify-content: space-around;
+
     align-items: center;
+    margin-bottom: 24px;
+    background: #e0ebfe;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 800px;
+}
+
+.info {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0 px;
+    margin-bottom: 10 px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
 }
