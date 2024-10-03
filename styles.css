@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_1280.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+p, h1, h2 {
+    text-align: center;
+}
+
+.div {
+    width: 500px;
+    height: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
