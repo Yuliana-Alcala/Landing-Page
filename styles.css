@@ -1,0 +1,72 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_1280.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+  background-size: auto 100%;
+}
+
+p,
+h1,
+h2 {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 24px;
+  background: #e0ebfe;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 650px;
+  box-shadow: 0 0 10px navy;
+  margin-right: 40px;
+}
+
+
+
+img {
+  border-radius: 5%;
+  box-shadow: 0 0 20px navy;
+  margin: 10px 10px 40px 10px;
+}
+
+.one-line {
+  display: flex;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.categoria {
+  font-size: 24 px;
+  font-style: italic;
+  color: blue;
+  display: inline;
+}
+
+.dato {
+  font-size: 24 px;
+  color: rgb(6, 35, 35);
+  display: inline;
+}
+
+.info {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  display: block;
+}
+
+.githublink {
+  display: block;
+  text-align: left;
+  padding-top: 60px;
+}
