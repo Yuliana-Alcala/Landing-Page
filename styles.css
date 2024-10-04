@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/31/00/56/sky-7232494_1280.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    background-size:auto 100%;
+  }
+
+p, h1, h2 {
+  text-align: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    background: #e0ebfe;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 800px;
+    box-shadow: 0 0 10px navy;
+}
+.info{
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0 px;
+  margin-bottom: 10 px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+img {
+  border-radius: 5%;
+  box-shadow: 0 0 20px navy;
+}
